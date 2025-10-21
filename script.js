@@ -4,8 +4,15 @@ function async (params) {
   xhr.onload = function() {
     if (xhr.status === 200) {
       const data = JSON.parse(xhr.responseText);
-      data.forEach({className, teacher, roomNumber, period, subjectArea, }) => {
-        const div = `<div class" col-12 col-sm-6 col-lg-4"> `
+      data.forEach({className, teacher, roomNumber, period, subjectArea, }) =>
+        {
+        const div = `<div class" col-12 col-sm-6 col-lg-4">
+          <div class="h1">${className}</div>
+           <div class="h1">${teacher}</div>
+            <div class="h1">${roomNumber}</div>
+             <div class="h1">${period}</div>
+              <div class="h1">${subjectArea}</div>
+          </div>`
 }
 }
   {
