@@ -16,15 +16,25 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+          <link rel="stylesheet" href="style.css" />
     </head>
       <main>
         <body>
-    </div>
-      <div
-        id="out"
-        class="container-fluid row d-flex justify-content-center"
-      ></div>
+    <h1>My Senior Friend's Schedules!</h1>
 
+   <div class="mb-3">
+        <label for="friendSelector" class="form-label text-white">Select a schedule:</label>
+        <select id="friendSelector" class="form-select">
+            <option value="Vincent.json" selected>Vincent</option>
+            <option value="Nick.json">Nick</option>
+            <option value="Elizabeth.json">Liza</option>
+            <option value="RemySchedule.json">Remy</option>
+        </select>
+    </div>
+
+    <div id="status"></div>
+
+      <div id="scheduleContainer" class="row justify-content-center g-3"></div>
       </main>
     </body>
     <script
