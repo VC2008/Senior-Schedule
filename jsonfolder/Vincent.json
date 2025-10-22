@@ -1,52 +1,52 @@
 [
 {
-    "className" : "English 4",
-    "teacher" : "Fontanilla",
-    "roomNumber" : "E123",
-    "period" : "1",
+    "className": "English 4",
+    "teacher": "Fontanilla",
+    "roomNumber": "E123",
+    "period": "1",
+    "subjectArea": "English"
+},
+{
+    "className": "Financial Literacy",
+    "teacher": "Morgan",
+    "roomNumber": "A132",
+    "period": "2",
+    "subjectArea": "Business"
+},
+{
+    "className": "Study Hall",
+    "teacher": "Stumbaugh/Weksler",
+    "roomNumber": "C101",
+    "period": "3",
+    "subjectArea": "English"
+},
+{
+    "className": "Public Speaking",
+    "teacher": "Bender",
+    "roomNumber": "A127",
+    "period": "4",
     "subjectArea" : "English"
 },
 {
-    "className" : "Financial Literacy",
-    "teacher" : "Morgan",
-    "roomNumber" : "A132",
-    "period" : "2",
-    "subjectArea" : "Business"
+    "className": "Statistics",
+    "teacher": "Juska/Altillio",
+    "roomNumber": "A213",
+    "period": "5",
+    "subjectArea": "Math"
 },
 {
-    "className" : "Study Hall",
-    "teacher" : "Stumbaugh/Weksler",
-    "roomNumber" : "C101",
-    "period" : "3",
-    "subjectArea" : "English"
+    "className": "Global Studies",
+    "teacher": "Shaw",
+    "roomNumber": "A109",
+    "period": "6",
+    "subjectArea": "History"
 },
 {
-    "className" : "Public Speaking",
-    "teacher" : "Bender",
-    "roomNumber" : "A127",
-    "period" : "4",
-    "subjectArea" : "English"
-},
-{
-    "className" : "Statistics",
-    "teacher" : "Juska/Altillio",
-    "roomNumber" : "A213",
-    "period" : "5",
-    "subjectArea" : "Math"
-},
-{
-    "className" : "Global Studies",
-    "teacher" : "Shaw",
-    "roomNumber" : "A109",
-    "period" : "6",
-    "subjectArea" : "History"
-},
-{
-    "className" : "Honors NJIT IS219 Advanced Website Development WDP",
-    "teacher" : "Kilgore",
-    "roomNumber" : "B111",
-    "period" : "7",
-    "subjectArea" : "Computer Science"
+    "className": "Honors NJIT IS219 Advanced Website Development WDP",
+    "teacher": "Kilgore",
+    "roomNumber": "B111",
+    "period": "7",
+    "subjectArea": "Computer Science"
 }
 
 
